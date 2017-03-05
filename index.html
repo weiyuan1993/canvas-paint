@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>小畫家</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas">
+        Sorry, your browser doesn't support the &lt;canvas&gt; element.
+      </canvas>
+      <div id="buttons">
+        <button id="reset" type="button" class="btn btn-danger" >清除</button>
+        <div id="red" class="color"></div>
+        <div id='blue' class="color"></div>
+        <div id='green' class="color"></div>
+        <div id='purple' class="color"></div>
+        <div id='yellow' class="color"></div>
+        <div id='orange' class="color"></div>
+        <div id='pink' class="color"></div>
+        <div id='black' class="color"></div>
+        <div id='white' class="color"></div>
+        <a id="save" href="#" download="yourpaint.png" class="btn btn-primary">下載圖片</a>
+        粗細<input id="lineWidth" type="range" min="1" max="50" value="1"/>
+      </div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
